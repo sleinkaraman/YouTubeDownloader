@@ -3,7 +3,7 @@ import yt_dlp
 
 ydl_opts = {
     'format': 'best',
-    'outtmpl': 'indirilen_video.%(ext)s',
+    'outtmpl': 'downloaded_video.%(ext)s',
 }
 
 def download_video(url):
